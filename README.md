@@ -32,3 +32,9 @@ Videos downloading is simply performed thanks to [youtube-dl](https://github.com
 
 NB: Possible improvments can be made by reaching also comments replies, which are much more numerous than comments themselves.
 
+References:
+
+* https://python.plainenglish.io/scraping-joe-rogans-youtube-profile-and-ranking-his-videos-by-popularity-with-python-pandas-and-a684fff4472e
+
+* https://towardsdatascience.com/how-to-scrape-youtube-comments-with-python-61ff197115d4
+
