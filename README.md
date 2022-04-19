@@ -39,7 +39,7 @@ References:
 * https://towardsdatascience.com/how-to-scrape-youtube-comments-with-python-61ff197115d4
 
 
-## Youtube_topic_modeling.ipynb
+## Youtube_topics_modeling.ipynb
 
 This notebook aims at finding Youtube videos topics through theirs comments.
 
