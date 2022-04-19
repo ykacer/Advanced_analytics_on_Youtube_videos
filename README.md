@@ -16,7 +16,7 @@ One can simply provide to selenium the xml path (`Xpath`) to the desired element
 
 The xml path of a given element can be copy-pasted from "inspect" mode on browser (`Copy > Copy full XPath`):
 
-![IMG_20220420_002627](https://user-images.githubusercontent.com/16710784/164112363-3c881076-13a4-4e1e-8532-6c9c62c34605.jpg)
+![IMG_20220420_003849](https://user-images.githubusercontent.com/16710784/164119959-4b74667c-0530-42b7-910a-a6ca41f5f955.jpg)
 
 Difficulties appear when interactions through selenium driver are needed like:
 
