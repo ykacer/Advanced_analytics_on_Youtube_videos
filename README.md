@@ -63,3 +63,7 @@ We finally found that *NMF* is better at providing coherent *K* word distributio
 *  topic 4 related to 2022 French elections
 
 *  topic 5 related to Covid pandemia
+
+References:
+
+* https://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html
