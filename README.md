@@ -24,7 +24,10 @@ Difficulties appear when interactions through selenium driver are needed like:
 
 *  Clicking on comments icon to make short video comments displayed
 
-Videos downloadiing is simply performed thanks to [youtube-dl](https://github.com/ytdl-org/youtube-dl). The video downloading being IO-bound, we implement a multithreaded videos loop.
+*  The video comments scraping being IO-bound, we implement a multithreaded videos loop.
+
+
+Videos downloading is simply performed thanks to [youtube-dl](https://github.com/ytdl-org/youtube-dl).
 
 
 NB: Possible improvments can be made by reaching also comments replies, which are much more numerous than comments themselves.
