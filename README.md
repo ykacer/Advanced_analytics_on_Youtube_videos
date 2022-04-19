@@ -44,7 +44,7 @@ References:
 This notebook aims at finding Youtube videos topics through theirs comments.
 
 *Non-Negative matrix factorization* and *Latent Discrimination Analysis* are the dedicated algorithm when it comes to cluster texts.
-Such algorithms takes as input observations (document/word matrix like *Term-Frequency* or *Term-Frequency Inversed-Document-Frequency*) and tries to reach the same objective : providing words weights for each *K* topics (*K* being a user parameter)
+Such algorithms takes as input observations (document/word matrix like *Term-Frequency* or *Term-Frequency Inversed-Document-Frequency*) and tries to reach the same objective : providing words weights for each *K* topic (*K* being a user parameter). One can then directly interpret each topic by reviewing its top weighted words (see figure below).
 
 The only difference is that *LDA* solves the problem in a probalistic way (the weights are seen as a Dirichlet distribution parameters) while *NMF* uses a pure matrix factorization with positivity constraints.
 
@@ -64,7 +64,7 @@ We finally found that *NMF* is better at providing coherent *K* word distributio
 
 *  topic 5 related to Covid pandemia
 
-Topic 2 seems to be a mix of various topics, increasing *K* has no positive effects. A solution could be to use replies comments to enrich each Youtube video text.
+Topic 2 seems to be a mix of various topics, but increasing *K* has no positive effects. A solution could be to use replies comments to enrich each Youtube video text.
 
 References:
 
