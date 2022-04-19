@@ -64,6 +64,8 @@ We finally found that *NMF* is better at providing coherent *K* word distributio
 
 *  topic 5 related to Covid pandemia
 
+Topic 2 seems to be a mix of various topics, increasing *K* has no positive effects. A solution could be to use replies comments to enrich each Youtube video text.
+
 References:
 
 * https://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html
