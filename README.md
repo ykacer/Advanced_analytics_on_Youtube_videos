@@ -38,3 +38,28 @@ References:
 
 * https://towardsdatascience.com/how-to-scrape-youtube-comments-with-python-61ff197115d4
 
+
+## Youtube_topic_modeling.ipynb
+
+This notebook aims at finding Youtube videos topics through theirs comments.
+
+*Non-Negative matrix factorization* and *Latent Discrimination Analysis* are the dedicated algorithm when it comes to cluster texts.
+Such algorithms takes as input observations (document/word matrix like *Term-Frequency* or *Term-Frequency Inversed-Document-Frequency*) and tries to reach the same objective : providing words weights for each *K* topics (*K* being a user parameter)
+
+The only difference is that *LDA* solves the problem in a probalistic way (the weights are seen as a Dirichlet distribution parameters) while *NMF* uses a pure matrix factorization with positivity constraints.
+
+In the notebook, we define a Youtube videos text as the concatenation of all its comments.
+
+We apply such topic modeling on 61 Youtube videos (published one month ago) from [Brut.](https://www.youtube.com/channel/UCSKdvgqdnj72_SLggp7BDTg)  Youtube channel. *Brut.* being a media, we expect to find topics related to recents news or society trends.
+
+We finally found that *NMF* is better at providing coherent *K* word distributions `P(word/topic_{k})` (*K*=5):
+
+![image](https://user-images.githubusercontent.com/16710784/164117632-289d087a-cfa1-4819-9927-261419f1580e.png)
+
+*  topic 1 related to War in Ukrania
+
+*  topic 3 related to men/women equality
+
+*  topic 4 related to 2022 French elections
+
+*  topic 5 related to Covid pandemia
