@@ -18,7 +18,7 @@ The xml path of a given element can be copy-pasted from "inspect" mode on browse
 
 ![IMG_20220420_002627](https://user-images.githubusercontent.com/16710784/164112363-3c881076-13a4-4e1e-8532-6c9c62c34605.jpg)
 
-Difficulties appear when interactions through driver are needed like:
+Difficulties appear when interactions through selenium driver are needed like:
 
 *  Scrolling the channel videos page to get all videos or the video comments section to get all comments
 
